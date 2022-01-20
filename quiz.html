@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#6100FF">
+		<meta name="theme-color" content="#6100FF">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/ion.rangeSlider.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1217.css" media="print, (max-width: 1217px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="top">
+						<div class="cont">
+							<nav class="menu row">
+								<button class="btn scroll_btn" data-anchor="#plan">План ремонта </button>
+								<button class="btn scroll_btn" data-anchor="#quality_control">Контроль качества</button>
+								<button class="btn scroll_btn" data-anchor="#tariffs">Цена</button>
+								<button class="btn scroll_btn" data-anchor="#calc">Калькулятор</button>
+								<button class="btn scroll_btn" data-anchor="#portfolio">Портфолио</button>
+								<button class="btn scroll_btn" data-anchor="#bonuses">Сервисы</button>
+								<button class="btn scroll_btn" data-anchor="#confidence">Траст</button>
+								<button class="btn scroll_btn" data-anchor="#objects">Процесс работы</button>
+								<button class="btn scroll_btn" data-anchor="#guarantees">Гарантии</button>
+								<button class="btn scroll_btn" data-anchor="#team">Команда</button>
+								<button class="btn scroll_btn" data-anchor="#contacts_info">Контакты</button>
+							</nav>
+						</div>
+					</div>
+
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.png" alt="">
+								<div>Ремонт помещений<br> в Москве и области<br> под ключ</div>
+							</a>
+
+							<div class="phone">
+								<div class="time">Ежедневно с 9 00 до 21 00</div>
+
+								<div class="number">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+									<a href="tel:+74999388281">+7 (499) 938-82-81</a>
+								</div>
+							</div>
+
+							<button class="callback_btn modal_btn" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="first_section">
+					<div class="cont">
+						<div class="info min_margin">
+							<div class="title">Ремонт квартиры под ключ за 45 дней</div>
+
+							<div class="desc">Ответьте на несколько вопросов прямо сейчас и получите стоимость ремонта квартиры</div>
+
+							<div class="you_get">
+								<div class="title">Сразу после теста Вы получите:</div>
+
+								<div class="item">
+									<div class="icon">
+										<img data-src="images/ic_you_get1.svg" alt="" class="lozad">
+									</div>
+									<div>Стоимость ремонта квартиры<br> <b>по вашим параметрам</b></div>
+								</div>
+
+								<div class="item">
+									<div class="icon">
+										<img data-src="images/ic_you_get2.svg" alt="" class="lozad">
+									</div>
+									<div>Пример сметы <b>на ремонт<br> квартиры</b></div>
+								</div>
+
+								<div class="item">
+									<div class="icon">
+										<img data-src="images/ic_you_get3.svg" alt="" class="lozad">
+									</div>
+									<div>Дизайн-проект<br> <b>в подарок</b></div>
+								</div>
+							</div>
+
+							<button class="btn modal_btn" data-content="#callback_modal">Узнать стоимость</button>
+						</div>
+					</div>
+
+					<img data-src="images/tmp/bg_first_section.jpg" alt="" class="bg lozad">
+				</section>
+
+
+				<section class="quiz">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Узнайте стоимость ремонта<br> <span>прямо сейчас</span></div>
+
+							<div class="desc">Ответьте на 6 вопросов прямо сейчас и получите стоимость ремонта квартиры</div>
+						</div>
+
+						<div class="row">
+							<div class="data">
+								<div class="head">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_data"></use></svg>
+									<span>Собираем данные для расчёта стоимости ремонта...</span>
+								</div>
+
+								<div class="steps">
+									<div class="step step1" data-discount="0%" data-progress="0%">
+										<div class="title">Укажите площадь вашей квартиры</div>
+
+										<div class="area">
+											<input type="hidden" id="area_range" name="area_range" value="">
+
+											<div class="value">
+												<input type="text" name="" value="60" class="input">
+												<div class="unit">м²</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="step step2" data-discount="5%" data-progress="20%">
+										<div class="finishing">
+											<div class="title">Какую отделку рассчитываем?</div>
+
+											<div class="scroll">
+												<div class="row">
+													<input type="radio" name="finishing" id="finishing_check1">
+													<label for="finishing_check1">
+														<div class="check">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+
+														<div class="thumb">
+															<img data-src="images/tmp/quiz_finishing_thumb.jpg" alt="" class="lozad">
+														</div>
+
+														<div class="name">Косметический ремонт</div>
+													</label>
+
+													<input type="radio" name="finishing" id="finishing_check2" checked>
+													<label for="finishing_check2">
+														<div class="check">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+
+														<div class="thumb">
+															<img data-src="images/tmp/quiz_finishing_thumb2.jpg" alt="" class="lozad">
+														</div>
+
+														<div class="name">Капитальный ремонт</div>
+													</label>
+
+													<input type="radio" name="finishing" id="finishing_check3">
+													<label for="finishing_check3">
+														<div class="check">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+
+														<div class="thumb">
+															<img data-src="images/tmp/quiz_finishing_thumb3.jpg" alt="" class="lozad">
+														</div>
+
+														<div class="name">Отделка под ключ</div>
+													</label>
+
+													<input type="radio" name="finishing" id="finishing_check4">
+													<label for="finishing_check4">
+														<div class="check">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+
+														<div class="thumb">
+															<img data-src="images/tmp/quiz_finishing_thumb4.jpg" alt="" class="lozad">
+														</div>
+
+														<div class="name">Косметический ремонт</div>
+													</label>
+
+													<input type="radio" name="finishing" id="finishing_check5">
+													<label for="finishing_check5">
+														<div class="check">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+
+														<div class="thumb">
+															<img data-src="images/tmp/quiz_finishing_thumb5.jpg" alt="" class="lozad">
+														</div>
+
+														<div class="name">Капитальный ремонт</div>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="step step3" data-discount="10%" data-progress="40%">
+										<div class="networks">
+											<div class="title">Какие инженерные сети включить в расчет?</div>
+
+											<div class="desc">Выберите один или несколько вариантов</div>
+
+											<div class="row">
+												<input type="checkbox" name="networks" id="networks_check1">
+												<label for="networks_check1">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Электрика</span>
+												</label>
+
+												<input type="checkbox" name="networks" id="networks_check2">
+												<label for="networks_check2">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Сантехника</span>
+												</label>
+
+												<input type="checkbox" name="networks" id="networks_check3" checked>
+												<label for="networks_check3">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Теплые полы</span>
+												</label>
+
+												<input type="checkbox" name="networks" id="networks_check4">
+												<label for="networks_check4">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Отопление</span>
+												</label>
+
+												<input type="checkbox" name="networks" id="networks_check5">
+												<label for="networks_check5">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Водоснабжение</span>
+												</label>
+
+												<input type="checkbox" name="networks" id="networks_check6">
+												<label for="networks_check6">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Вентиляция или кондицеонер</span>
+												</label>
+
+												<input type="checkbox" name="networks" id="networks_check7">
+												<label for="networks_check7">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<span>Ничего</span>
+												</label>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="step step4" data-discount="15%" data-progress="40%">
+										<div class="send">
+											<div class="title">Куда вам выслать стоимость и бонусы?</div>
+
+											<div class="row">
+												<input type="radio" name="send" id="send_check1">
+												<label for="send_check1">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+
+													<div class="icon">
+														<img src="images/ic_quiz_send1.png" alt="" class="lozad">
+													</div>
+
+													<div class="name">Расказать по телефону</div>
+												</label>
+
+												<input type="radio" name="send" id="send_check2">
+												<label for="send_check2">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+
+													<div class="icon">
+														<img src="images/ic_quiz_send2.png" alt="" class="lozad">
+													</div>
+
+													<div class="name">Отправить в<br> WhatsApp</div>
+												</label>
+
+												<input type="radio" name="send" id="send_check3" checked>
+												<label for="send_check3">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+
+													<div class="icon">
+														<img src="images/ic_quiz_send3.png" alt="" class="lozad">
+													</div>
+
+													<div class="name">Отправить в<br> Viber</div>
+												</label>
+
+												<input type="radio" name="send" id="send_check4">
+												<label for="send_check4">
+													<div class="check">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+
+													<div class="icon">
+														<img src="images/ic_quiz_send4.png" alt="" class="lozad">
+													</div>
+
+													<div class="name">Прислать в<br> SMS</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="step step5 finish" data-discount="20%" data-progress="95%">
+										<div class="contacts">
+											<div class="title">Оставьте свои контакты,<br> чтобы мы могли сообщить стоимость ремонта</div>
+
+											<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae fermentum neque. Morbi sed est tempus, consequat purus non, accumsan metus.</div>
+
+											<form action="" class="form">
+												<div class="line row">
+													<div class="label">Введите<br> ваше имя</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Александр">
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Введите<br> номер месседжера телефон</div>
+
+													<div class="field">
+														<input type="tel" name="" value="" class="input" placeholder="+ 7 (954) 12 - 09 - 841">
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+								<div class="bottom">
+									<div class="progress">
+										<div>Готово: <b class="val">0%</b></div>
+										<div class="bar"><div></div></div>
+									</div>
+
+									<button class="back_btn disabled">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+									</button>
+
+									<button class="next_btn">Далее</button>
+
+									<button class="finish_btn">Получить цену<br> и бонусы</button>
+								</div>
+							</div>
+
+
+							<div class="col_right">
+								<div class="discount">
+									<span>Ваша скидка</span>
+									<b class="val">0%</b>
+								</div>
+
+								<div class="manager">
+									<div class="photo">
+										<img data-src="images/tmp/manager_photo3.jpg" alt="" class="lozad">
+									</div>
+
+									<div>
+										<div class="name">Сергей</div>
+										<div class="post">Руководитель сметного отдела</div>
+									</div>
+
+									<div class="message">
+										<p><b>Lorem ipsum dolor sit amet, consectetur</b> adipiscing elit. Phasellus vitae fermentum neque. Morbi sed est tempus, consequat purus non, accumsan metus. Nam fringilla mi eget ipsum tristique, sed porttitor purus maximus. Donec vel rhoncus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+
+										<p>Nunc quis tellus egestas, sagittis lorem et, rutrum turpis. Integer sit amet turpis lobortis, tincidunt libero eu, viverra urna. Nulla eleifend erat at magna viverra, vel tincidunt arcu sagittis.</p>
+									</div>
+
+									<div class="message finish">
+										<p><b>Свяжусь с вами в ближайшее время</b> adipiscing elit. Phasellus vitae fermentum neque. Morbi sed est tempus, consequat purus non, accumsan metus. Nam fringilla mi eget ipsum tristique, sed porttitor purus maximus. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="contacts_info">
+					<div class="cont">
+						<div class="data">
+							<div class="block_title">Контакты</div>
+
+							<div class="item location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<span>г. Москва, ул. 1-й Нагатинский проезд, 2 стр. 12</span>
+							</div>
+
+							<div class="item phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+74999388281">+7 (499) 938-82-81</a>
+							</div>
+
+							<div class="item email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:info@plan-remonta.com">info@plan-remonta.com</a>
+							</div>
+
+							<button class="order_btn modal_btn" data-content="#callback_modal">Оставить заявку</button>
+						</div>
+					</div>
+
+					<div class="map_wrap">
+						<div id="map"></div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="copyright">&copy; 2021 План-ремонта</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="free_measurement_modal">
+			<button class="close_btn">
+				<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+			</button>
+
+			<img src="images/tmp/free_measurement_img.png" alt="" class="img">
+
+			<div class="data">
+				<div class="title">Запишитесь<br> на бесплатный замер</div>
+
+				<div class="pluses">
+					<div>
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+						<span>Выезжаем в выходные дни</span>
+					</div>
+
+					<div>
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+						<span>Замер ни к чему не обязывает</span>
+					</div>
+
+					<div>
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+						<span>Точно просчитаем стоимость работ, материалов и сроки ремонта</span>
+					</div>
+				</div>
+
+				<button class="btn modal_btn" data-content="#callback_modal">Записаться на замер</button>
+			</div>
+		</section>
+
+
+		<section class="modal" id="calc_modal">
+			<div class="row">
+				<div class="head">
+					<div class="title">Успейте начать ремонт<br> пока все не подорожало</div>
+
+					<div class="desc">Давайте мы за 2 минуты рассчитаем для вас стоимость ремонта?</div>
+				</div>
+
+				<form action="" class="form">
+					<div class="line area">
+						<div>Площадь помещения</div>
+
+						<input type="hidden" id="calc_area_range" name="calc_area_range" value="">
+					</div>
+
+					<div class="line row">
+						<div class="label">Вид ремонта</div>
+
+						<div class="field">
+							<select name="">
+								<option value="1" selected>Косметический</option>
+								<option value="2">Капитальный</option>
+								<option value="3">Дизайнерский</option>
+								<option value="4">Другое</option>
+							</select>
+
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_select_arrow"></use></svg>
+						</div>
+					</div>
+
+					<div class="line row">
+						<div class="label">количество<br> комнат</div>
+
+						<div class="field">
+							<select name="">
+								<option value="1" selected>2</option>
+								<option value="2">3</option>
+								<option value="3">4</option>
+							</select>
+
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_select_arrow"></use></svg>
+						</div>
+					</div>
+
+					<div class="line row">
+						<div class="label">Введите<br> Ваш телефон</div>
+
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="+ 7 (954) 12 - 09 - 841">
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Рассчитать</button>
+					</div>
+
+					<div class="agree">Нажимая кнопку "Рассчитать", я подтверждаю, что я ознакомлен и согласен с условиями политики обработки персональных данных</div>
+				</form>
+			</div>
+
+			<img data-src="images/tmp/bg_calc_modal.jpg" alt="" class="bg lozad">
+		</section>
+
+
+		<section class="modal order" id="callback_modal">
+			<div class="title">Обзратный звонок</div>
+
+			<form action="" class="form">
+				<div class="line row">
+					<div class="label">Введите<br> Ваше имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Александр">
+					</div>
+				</div>
+
+				<div class="line row">
+					<div class="label">Введите<br> Ваш телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+ 7 (954) 12 - 09 - 841">
+					</div>
+				</div>
+
+				<div class="bottom">
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+
+					<div class="agree">Нажимая кнопку "Отправить", я подтверждаю, что я ознакомлен и согласен с условиями политики обработки персональных данных</div>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+
+		<!-- Яндекс карты -->
+		<script src="http://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+		<script>
+			$(window).on('load', () => {
+				setTimeout(() => {
+					if ($('#map').length) {
+						initMap()
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

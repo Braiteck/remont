@@ -1,0 +1,894 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: -40px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        top: 14px;
+        right: 14px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .top
+    {
+        display: none;
+    }
+
+
+    header .phone .number
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    header .callback_btn
+    {
+        padding: 14px 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line.row .label
+    {
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    .form .line.row .label br
+    {
+        display: none;
+    }
+
+    .form .line.row .field
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .info
+    {
+        width: 472px;
+    }
+
+    .first_section .info.tablet_min_w
+    {
+        width: calc(100% - 330px);
+    }
+
+
+    .first_section .info > .title
+    {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .first_section .info > .desc
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .first_section .you_get
+    {
+        margin-top: 32px;
+    }
+
+    .first_section .you_get .title
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .discount
+    {
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 0;
+        padding: 20px 24px;
+    }
+
+
+    .first_section .btn
+    {
+        margin-top: 36px;
+        margin-bottom: 0;
+        padding: 14px 20px;
+    }
+
+
+    .first_section .order
+    {
+        width: 300px;
+        margin-bottom: -120px;
+        padding: 24px 20px;
+    }
+
+    .first_section .order .form .bottom
+    {
+        margin: 24px -20px -24px;
+        padding: 24px 20px 20px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .title
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 100px 0 56px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+
+    .advantages .icon
+    {
+        margin-bottom: 24px;
+    }
+
+    .advantages .name
+    {
+        font-size: 15px;
+
+        padding-top: 12px;
+    }
+
+
+
+    /*----------
+        Plan
+    ----------*/
+    .plan
+    {
+        padding: 24px 0;
+    }
+
+
+    .plan .bg_text
+    {
+        right: 24px;
+        left: auto;
+
+        display: none;
+
+        width: 250px;
+        margin-left: 0;
+    }
+
+
+    .plan .data
+    {
+        width: 100%;
+    }
+
+
+    .plan .image
+    {
+        display: none;
+
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+
+        order: 2;
+    }
+
+
+
+    /*---------------------
+        Quality control
+    ---------------------*/
+    .quality_control
+    {
+        padding: 56px 0 64px;
+    }
+
+
+    .quality_control .bg_text
+    {
+        display: none;
+    }
+
+
+    .quality_control .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -32px;
+        padding: 0 24px 32px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .quality_control .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .quality_control .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .quality_control .row > *
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .quality_control .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 80px 0 64px;
+    }
+
+
+    .tariffs .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -32px;
+        padding: 0 24px 32px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .tariffs .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .tariffs .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .tariffs .row > *
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .tariffs .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .tariffs .calc
+    {
+        padding-top: 60px;
+    }
+
+
+    .tariffs .calc .bg_text
+    {
+        display: none;
+    }
+
+
+    .tariffs .calc .data
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc .block_title
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .calc .btns
+    {
+        display: flex;
+
+        margin-left: -20px;
+    }
+
+    .calc .btns > *
+    {
+        width: auto;
+        max-width: calc(100% - 20px);
+        margin-left: 20px;
+    }
+
+    .calc .btns > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    .calc .manager
+    {
+        left: 188px;
+
+        width: 232px;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .calc .manager .message
+    {
+        top: 52px;
+        right: 200px;
+
+        width: 400px;
+        max-width: none;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio
+    {
+        padding: 80px 0 40px;
+    }
+
+
+    .portfolio .bg_text
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Portfolio item
+    --------------------*/
+    .portfolio_item
+    {
+        padding: 24px;
+    }
+
+
+    .portfolio_item .data
+    {
+        width: 100%;
+    }
+
+
+    .portfolio_item .slider
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Credit
+    ------------*/
+    .credit
+    {
+        padding: 40px 0;
+    }
+
+
+    .credit .bg_text
+    {
+        display: none;
+    }
+
+
+    .credit .image
+    {
+        width: calc(100% - 364px);
+        margin-left: -24px;
+    }
+
+    .credit .image .text
+    {
+        right: 16px;
+        bottom: -40px;
+
+        width: calc(100% - 32px);
+        padding: 16px;
+    }
+
+
+    .credit .data
+    {
+        width: 348px;
+        padding-top: 40px;
+    }
+
+
+    .credit .percents
+    {
+        font-size: 72px;
+
+        margin-left: 20px;
+    }
+
+    .credit .percents b
+    {
+        font-size: 120px;
+    }
+
+
+    .credit .pluses
+    {
+        margin-top: 40px;
+    }
+
+    .credit .pluses > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------
+        Bonuses
+    -------------*/
+    .bonuses
+    {
+        padding: 60px 0 116px;
+    }
+
+
+    .bonuses .bg_text
+    {
+        display: none;
+    }
+
+
+    .bonuses .block_head
+    {
+        width: 280px;
+        margin-bottom: 70px;
+    }
+
+    .bonuses .block_head .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .bonuses .swiper-container
+    {
+        width: calc(100% - 340px);
+    }
+
+    .bonuses .swiper-container::before
+    {
+        right: calc(100% + 20px);
+    }
+
+    .bonuses .swiper-container .slide
+    {
+        width: 220px;
+    }
+
+
+    .bonuses .swiper-button-prev,
+    .bonuses .swiper-button-next
+    {
+        top: 176px;
+    }
+
+    .bonuses .swiper-button-prev
+    {
+        left: -340px;
+    }
+
+    .bonuses .swiper-button-next
+    {
+        left: -288px;
+    }
+
+
+
+    /*-------------
+        Objects
+    -------------*/
+    .objects
+    {
+        margin-bottom: 120px;
+        padding-top: 80px;
+    }
+
+
+
+    .objects .order
+    {
+        margin-bottom: -120px;
+    }
+
+
+    .objects .order .data
+    {
+        width: 364px;
+        padding: 24px 30px 24px 24px;
+    }
+
+
+    .objects .order .swiper-container
+    {
+        width: calc(100% - 364px);
+    }
+
+
+
+    /*----------------
+        Confidence
+    ----------------*/
+    .confidence
+    {
+        margin-top: 60px;
+        padding-top: 0;
+    }
+
+
+    .confidence .bg_text
+    {
+        display: none;
+    }
+
+
+    .confidence .block_head
+    {
+        width: 100%;
+    }
+
+
+    .confidence .manager
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees
+    {
+        padding: 40px 0;
+    }
+
+
+    .guarantees .bg_text
+    {
+        display: none;
+    }
+
+
+    .guarantees .image
+    {
+        width: calc(100% - 260px);
+    }
+
+
+    .guarantees .data
+    {
+        width: 320px;
+        margin-top: 52px;
+    }
+
+    .guarantees .download_link a
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------
+        Team
+    ------------*/
+    .team .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 80px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 356px;
+        padding: 30px;
+    }
+
+
+    .contacts_info .block_title
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .contacts_info .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .contacts_info .order_btn
+    {
+        margin-top: 32px;
+        padding: 14px 20px;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz
+    {
+        padding: 80px 0;
+    }
+
+
+    .quiz .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .quiz .block_head .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .quiz .data
+    {
+        width: 100%;
+    }
+
+
+    .quiz .data .step .desc
+    {
+        font-size: 13px;
+        line-height: 140%;
+
+        margin-top: 12px;
+    }
+
+
+    .quiz .col_right
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .quiz .manager
+    {
+        margin-top: 30px;
+    }
+
+    .quiz .manager .message
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #free_measurement_modal
+    {
+        width: 600px;
+        padding: 34px;
+    }
+
+
+    #free_measurement_modal .img
+    {
+        width: 244px;
+    }
+
+
+    #free_measurement_modal .data
+    {
+        width: 300px;
+    }
+
+
+    #free_measurement_modal .title
+    {
+        font-size: 19px;
+    }
+
+
+    #free_measurement_modal .pluses
+    {
+        margin-top: 24px;
+    }
+
+    #free_measurement_modal .pluses > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    #free_measurement_modal .btn
+    {
+        margin-top: 28px;
+        padding: 14px 24px;
+    }
+
+
+
+    #calc_modal
+    {
+        padding: 40px 30px 88px;
+    }
+
+
+    #calc_modal .head
+    {
+        width: 280px;
+    }
+
+    #calc_modal .head .title
+    {
+        font-size: 19px;
+    }
+
+
+    #calc_modal .form
+    {
+        width: 320px;
+
+        --form_label_width: 116px;
+    }
+}

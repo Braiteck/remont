@@ -1,0 +1,1087 @@
+@media print, (max-width: 1217px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 38px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        bottom: 24px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+    .swiper-button-next
+    {
+        right: 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        padding: 14px 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .info
+    {
+        padding: 20px 0;
+    }
+
+
+    header .menu
+    {
+        justify-content: space-between;
+    }
+
+    header .menu > * + *
+    {
+        margin-left: 0;
+    }
+
+
+    header .phone .time
+    {
+        margin-bottom: 3px;
+    }
+
+    header .phone .number
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    header .callback_btn
+    {
+        padding: 12px 24px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-----------------
+        Block title
+    -----------------*/
+    .block_title
+    {
+        margin-bottom: 32px;
+    }
+
+    .block_title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .form .submit_btn
+    {
+        padding: 14px 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 124px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .info
+    {
+        width: 532px;
+    }
+
+    .first_section .info > .title
+    {
+        font-size: 48px;
+        line-height: 120%;
+    }
+
+    .first_section .info > .desc
+    {
+        font-size: 17px;
+
+        margin-top: 16px;
+    }
+
+
+    .first_section .discount
+    {
+        width: 360px;
+        margin-top: 60px;
+        margin-left: 52px;
+        padding: 20px 24px;
+    }
+
+
+    .first_section .you_get .title
+    {
+        font-size: 17px;
+    }
+
+    .first_section .you_get .item
+    {
+        line-height: 140%;
+    }
+
+    .first_section .you_get .icon + *
+    {
+        width: calc(100% - 68px);
+    }
+
+
+    .first_section .btn
+    {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding: 12px 24px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order
+    {
+        padding: 30px 24px;
+    }
+
+
+    .order .title
+    {
+        font-size: 19px;
+    }
+
+
+    .order .form
+    {
+        margin-top: 30px;
+    }
+
+    .order .form .bottom
+    {
+        margin: 30px -24px -30px;
+        padding: 30px 24px 20px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 120px 0 76px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -32px;
+        margin-left: -24px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 32px;
+        margin-left: 24px;
+    }
+
+
+    .advantages .icon
+    {
+        margin-bottom: 28px;
+    }
+
+    .advantages .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*----------
+        Plan
+    ----------*/
+    .plan
+    {
+        padding: 24px 0;
+    }
+
+
+    .plan .bg_text
+    {
+        bottom: 20px;
+
+        width: 280px;
+        margin-left: -296px;
+    }
+
+
+    .plan .image
+    {
+        width: calc(50% + 124px);
+        margin-left: -172px;
+    }
+
+
+    .plan .item + .item
+    {
+        margin-top: 24px;
+    }
+
+    .plan .item .icon + div
+    {
+        width: calc(100% - 80px);
+        padding-top: 0;
+    }
+
+    .plan .item .desc
+    {
+        line-height: 160%;
+
+        margin-top: 8px;
+    }
+
+
+    .plan .order_btn
+    {
+        margin-left: 80px;
+    }
+
+
+
+    /*---------------------
+        Quality control
+    ---------------------*/
+    .quality_control
+    {
+        padding: 76px 0 100px;
+    }
+
+
+    .quality_control .bg_text
+    {
+        top: 76px;
+        right: 24px;
+
+        width: 480px;
+        margin-right: 0;
+    }
+
+
+    .quality_control .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .quality_control .row > *
+    {
+        width: calc(25% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .person .info
+    {
+        padding: 16px 16px 20px;
+    }
+
+    .person .desc
+    {
+        font-size: 13px;
+
+        margin-top: 14px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 100px 0 80px;
+    }
+
+
+    .tariffs .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .tariffs .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .tariffs .tariff .head
+    {
+        padding: 14px;
+    }
+
+    .tariffs .tariff .name
+    {
+        font-size: 19px;
+    }
+
+    .tariffs .tariff .desc
+    {
+        font-size: 13px;
+    }
+
+    .tariffs .tariff .price b
+    {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+
+    .tariffs .tariff .list
+    {
+        padding: 24px 14px;
+    }
+
+
+    .tariffs .tariff .sub
+    {
+        padding-left: 15px;
+    }
+
+
+    .tariffs .calc
+    {
+        padding-top: 72px;
+    }
+
+    .tariffs .calc .bg_text
+    {
+        top: -32px;
+
+        width: 520px;
+    }
+
+    .tariffs .calc .data
+    {
+        width: 412px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc .btns
+    {
+        display: block;
+
+        margin-bottom: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .calc .btns > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .calc .btns > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .calc .manager
+    {
+        width: 348px;
+        margin-right: -60px;
+    }
+
+    .calc .manager .message
+    {
+        top: 100px;
+        right: 264px;
+
+        width: 308px;
+        padding: 16px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio
+    {
+        padding: 100px 0 50px;
+    }
+
+
+    .portfolio .bg_text
+    {
+        top: 96px;
+        right: 24px;
+
+        width: 284px;
+        margin-right: 0;
+    }
+
+
+    .portfolio .tab_content .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+    .portfolio .tab_content .tabs button
+    {
+        padding: 7px 15px;
+    }
+
+
+
+    /*--------------------
+        Portfolio item
+    --------------------*/
+    .portfolio_item
+    {
+        padding: 30px;
+    }
+
+
+    .portfolio_item .data
+    {
+        width: 320px;
+    }
+
+
+    .portfolio_item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .portfolio_item .features
+    {
+        margin-top: 30px;
+    }
+
+    .portfolio_item .features > *
+    {
+        font-size: 13px;
+        line-height: 140%;
+
+        padding-bottom: 12px;
+    }
+
+
+    .portfolio_item .consult_btn
+    {
+        margin-top: 30px;
+        padding: 14px 24px;
+    }
+
+
+    .portfolio_item .slider
+    {
+        width: calc(100% - 360px);
+    }
+
+    .portfolio_item .thumbs
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Credit
+    ------------*/
+    .credit
+    {
+        padding: 50px 0;
+    }
+
+
+    .credit .bg_text
+    {
+        top: 32px;
+        right: 24px;
+
+        width: 348px;
+        margin-right: 0;
+    }
+
+
+    .credit .image
+    {
+        width: 552px;
+        margin-left: -40px;
+    }
+
+    .credit .image .text
+    {
+        width: calc(100% - 40px);
+        padding: 24px;
+    }
+
+
+    .credit .data
+    {
+        width: calc(100% - 564px);
+        padding-top: 64px;
+    }
+
+
+    .credit .block_title br
+    {
+        display: block;
+    }
+
+
+    .credit .percents
+    {
+        font-size: 86px;
+        line-height: 100%;
+
+        margin-left: 24px;
+    }
+
+    .credit .percents b
+    {
+        font-size: 140px;
+        line-height: 100%;
+    }
+
+
+    .credit .order_btn
+    {
+        padding: 14px 24px;
+    }
+
+
+    .credit .pluses
+    {
+        margin-top: 60px;
+    }
+
+    .credit .pluses > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Bonuses
+    -------------*/
+    .bonuses
+    {
+        padding: 50px 0 150px;
+    }
+
+
+    .bonuses .bg_text
+    {
+        bottom: 60px;
+        left: 24px;
+
+        width: 720px;
+        margin-left: 0;
+    }
+
+
+    .bonuses .block_head
+    {
+        margin-bottom: 73px;
+    }
+
+    .bonuses .block_head .desc
+    {
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+
+    .bonuses .swiper-button-prev,
+    .bonuses .swiper-button-next
+    {
+        top: 200px;
+    }
+
+    .bonuses .swiper-container .slide
+    {
+        width: 240px;
+    }
+
+
+    .bonuses .item .thumb
+    {
+        border-radius: 30px;
+    }
+
+
+
+    /*-------------
+        Objects
+    -------------*/
+    .objects
+    {
+        margin-bottom: 150px;
+        padding-top: 100px;
+    }
+
+
+    .objects .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .objects .cont > .swiper-container
+    {
+        padding: 0 40px;
+    }
+
+    .objects .cont > .swiper-container .swiper-button-prev
+    {
+        left: -12px;
+    }
+
+    .objects .cont > .swiper-container .swiper-button-next
+    {
+        right: -12px;
+    }
+
+
+    .objects .object .logo
+    {
+        right: 16px;
+        bottom: 16px;
+
+        width: 72px;
+        height: 72px;
+
+        border-radius: 14px;
+    }
+
+
+    .objects .object .info
+    {
+        padding: 20px 16px 44px;
+    }
+
+
+    .objects .object .object_name
+    {
+        font-size: 19px;
+    }
+
+
+    .objects .object .manager
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .objects .order
+    {
+        margin-bottom: -150px;
+    }
+
+    .objects .order .data
+    {
+        width: 400px;
+        padding: 30px;
+    }
+
+    .objects .order .swiper-container
+    {
+        width: calc(100% - 400px);
+    }
+
+
+
+    /*----------------
+        Confidence
+    ----------------*/
+    .confidence
+    {
+        margin-top: 80px;
+        padding-top: 90px;
+    }
+
+
+    .confidence .bg_text
+    {
+        width: 460px;
+    }
+
+
+    .confidence .block_head
+    {
+        width: 452px;
+    }
+
+
+    .confidence .manager
+    {
+        width: calc(100% - 500px);
+    }
+
+    .confidence .manager .message
+    {
+        margin-bottom: 24px;
+        padding: 16px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees
+    {
+        padding: 60px 0 40px;
+    }
+
+
+    .guarantees .bg_text
+    {
+        top: 92px;
+        right: 24px;
+
+        width: 480px;
+        margin-right: 0;
+    }
+
+
+    .guarantees .image
+    {
+        width: calc(100% - 320px);
+        margin-left: -72px;
+    }
+
+
+    .guarantees .data
+    {
+        width: 372px;
+        margin-top: 140px;
+    }
+
+
+    .guarantees .desc
+    {
+        line-height: 160%;
+    }
+
+
+    .guarantees .download_link a
+    {
+        font-size: 17px;
+    }
+
+
+    .guarantees .boss
+    {
+        margin-top: 40px;
+    }
+
+
+    .guarantees .feedback_btn
+    {
+        padding: 14px 24px;
+    }
+
+
+
+    /*------------
+        Team
+    ------------*/
+    .team .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 100px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 372px;
+        padding: 44px 30px;
+    }
+
+
+    .contacts_info .block_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .contacts_info .item
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .contacts_info .order_btn
+    {
+        margin-top: 40px;
+        padding: 12px 24px;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz
+    {
+        padding: 100px 0;
+    }
+
+
+    .quiz .block_head .desc
+    {
+        margin-top: 32px;
+    }
+
+
+
+    .quiz .data .head
+    {
+        padding: 16px 30px;
+    }
+
+
+    .quiz .data .step
+    {
+        padding: 30px;
+    }
+
+
+    .quiz .data .step .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .quiz .data .area .irs .irs
+    {
+        margin-top: 40px;
+    }
+
+    .quiz .data .area .value
+    {
+        margin-top: 24px;
+    }
+
+
+    .quiz .data .finishing .scroll
+    {
+        height: 316px;
+        margin-top: 20px;
+        margin-right: -15px;
+        margin-bottom: -30px;
+        margin-left: -30px;
+        padding-right: 12px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+
+    .quiz .data .finishing .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .quiz .data .finishing .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .quiz .data .finishing .name
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        padding: 10px;
+    }
+
+
+    .quiz .data .send label
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .quiz .data .send label > .icon
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .quiz .data .form
+    {
+        display: block;
+
+        margin-left: 0;
+    }
+
+    .quiz .data .form > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .quiz .data .bottom
+    {
+        padding: 30px;
+    }
+
+
+    .quiz .data .progress
+    {
+        width: calc(100% - 200px);
+    }
+
+    .quiz .data .progress .bar
+    {
+        margin-top: 15px;
+    }
+
+
+    .quiz .data .next_btn,
+    .quiz .data .finish_btn
+    {
+        padding: 12px 24px;
+    }
+
+
+
+    .quiz .discount
+    {
+        padding: 20px;
+    }
+
+
+    .quiz .manager
+    {
+        margin-top: 40px;
+    }
+
+    .quiz .manager .message
+    {
+        margin-top: 24px;
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
